@@ -4,7 +4,7 @@ The dataset we used in this project has been collected from this link:
 
 https://www.kaggle.com/datasets/ritesh2000/car-brand-images-dataset
 
-The dataset comprises images of three car types, organized into three subfolders: 'audi', 'lamborghini' and 'mercedes'. 
+The "cars" dataset comprises images of three car types, organized into three subfolders: 'audi', 'lamborghini' and 'mercedes'. 
 Through accurate image classification of each car, we aim to enhance our understanding of their visual characteristics and improve the ability to distinguish between them in future applications.
 
 ** Instruction **:
@@ -29,21 +29,21 @@ The pre-processing techniques applied to our images are detailed below:
 
 •	Hyperparameter Tuning: To optimize the performance of each model, we have employed hyperparameter tuning using Grid Search.
 
-2.	Classifiers:
+2.	** Classifiers **:
    
 We checked the accuracy and performance of five different machine-learning models for the classification of car images in the dataset. 
 
-•	cars_cnn.ipynb: This code file uses Convolutional Neural Network model.
+•	"cars_cnn.ipynb": This code file uses Convolutional Neural Network model.
 
-•	cars_fcnn.ipynb: This code file uses Fully Connected Neural Network model.
+•	"cars_fcnn.ipynb": This code file uses Fully Connected Neural Network model.
 
-•	cars_knn.ipynb: This code file uses K-Nearest Neighbours model.
+•	"cars_knn.ipynb": This code file uses K-Nearest Neighbours model.
 
-•	cars_logistic.ipynb: This code file uses Logistic Regression model.
+•	"cars_logistic.ipynb": This code file uses Logistic Regression model.
 
-•	cars_svm.ipynb: This code file uses Support Vector Machine model.
+•	"cars_svm.ipynb": This code file uses Support Vector Machine model.
 
-3.	Performance Metrics:
+3.	** Performance Metrics **:
    
 These are the metrics we used to check the performance of each model.
 
